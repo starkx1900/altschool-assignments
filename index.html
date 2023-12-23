@@ -56,6 +56,24 @@
             placeholder="Enter email address"
           />
         </div>
+
+        <div>
+          <label for="education">Education Level</label>
+          <select name="education" id="education">
+            <option value="" selected disabled>
+              Select level of education
+            </option>
+            <option value="bsc">Bsc</option>
+            <option value="msc">Msc</option>
+            <option value="diploma">Diploma</option>
+            <option value="phd">Doctorate (Phd)</option>
+            <option value="highschool">High School / Secondary School</option>
+            <option value="undergrad">Undergraduate</option>
+            <option value="middleschool">Junior / Middle School</option>
+            <option value="postgrad">Post Graduate</option>
+          </select>
+        </div>
+
         <div>
           <label for="country">Country</label>
           <select name="country" id="country">
@@ -80,11 +98,63 @@
         </div>
         <div>
           <label for="employment">Employment Status</label>
-          <input type="text" id="employment" name="employment" />
+          <select name="employment" id="employment">
+            <option value="" selected disabled>Select employment status</option>
+            <option value="employed">employed</option>
+            <option value="unemployed">unemployed</option>
+            <option value="self-employed">self-employed</option>
+          </select>
         </div>
         <div>
           <label for="phone">Phone Number</label>
           <input type="tel" id="phone" name="phone" placeholder="08154387000" />
+        </div>
+
+        <div>
+          <label for="school">Choose School</label>
+          <select name="school" id="school">
+            <option value="" selected disabled>Select school</option>
+            <option value="economy">School of Creative Economy</option>
+            <option value="business">School of Business</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="course">Choose Course of Study</label>
+          <select name="course" id="course">
+            <option value="" selected disabled>Select course</option>
+            <option value="music">
+              Navigating the Music Business in Africa: Afrobeats case study
+            </option>
+            <option value="selling">
+              High-Impact Selling: From Prospecting to Closing
+            </option>
+          </select>
+        </div>
+
+        <div>
+          <label for="channel">How did you hear about us</label>
+          <select name="channel" id="channel">
+            <option value="" selected disabled>Select channel</option>
+            <option value="twitter">Twitter</option>
+            <option value="facebook">Facebook</option>
+            <option value="linkedin">Linkedin</option>
+            <option value="youtube">Youtube</option>
+            <option value="friend">Friend</option>
+            <option value="whatsapp">Whatsapp</option>
+            <option value="instagram">Instagram</option>
+            <option value="billboard">Billboard</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="state">Scholarship/Discount Code (optional)</label>
+          <input
+            type="text"
+            id="discount"
+            name="discount"
+            placeholder="Scholarship or student ID or discount codes"
+          />
         </div>
 
         <p>
